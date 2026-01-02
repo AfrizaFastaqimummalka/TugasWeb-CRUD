@@ -1,6 +1,6 @@
 <?php
-// File ini digunakan untuk clear semua session
-// Akses file ini jika Anda tidak bisa masuk ke halaman login
+// File clear semua session
+// Akses file ini jika tidak bisa masuk ke halaman login
 
 session_start();
 session_unset();
