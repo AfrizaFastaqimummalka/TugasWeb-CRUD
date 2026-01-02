@@ -1,11 +1,11 @@
 <?php
-// Start session terlebih dahulu
+// Start session 
 session_start();
 
 // Include database
 require_once 'db.php';
 
-// Jika sudah login, redirect ke dashboard
+// Jika sudah login, langsung ke dashboard
 if (isset($_SESSION['login']) && $_SESSION['login'] === true) {
     header("Location: dashboard.php");
     exit();
