@@ -10,6 +10,6 @@ session_destroy();
 session_start();
 $_SESSION['success'] = 'Anda berhasil logout!';
 
-// Redirect ke login
+// Langsung login
 redirect('login.php');
 ?>
